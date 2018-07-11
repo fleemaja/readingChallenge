@@ -8,9 +8,38 @@
   </head>
   <body>
     <h1>The 15 minute per day Reading Challenge</h1>
-    <section>
-      <a href="./readings/benFranklin.html">Ben Franklin's Advice for the New Year</a>
-      <p>"Resolution: Resolve to perform what you ought; perform without fail what you resolve"-was one of the rules for success framed by America's first "self-made" man.</p>
-    </section>
+    <section id="date"></section>
+
+    <main>
+      <section>
+        <h2>January</h2>
+        <section>
+          <span>1. </span>
+          <a href="./readings/benFranklin.html">Ben Franklin's Advice for the New Year</a>
+          <p>"Resolution: Resolve to perform what you ought; perform without fail what you resolve"-was one of the rules for success framed by America's first "self-made" man.</p>
+        </section>
+
+        <section>
+          <span>2. </span>
+          <a href="./readings/miltonPoems.html">School-Day Poems of John Milton</a>
+          <p>At the age of sixteen, Milton first appeared before the public eye as a promising young poet. These early verses, written while he was a boy in school, indicate his brilliant future.
+(First edition of Milton's collected poems published Jan. 2, 1645.)</p>
+        </section>
+      </section>
+
+    </main>
+
+    <script>
+      const dateSection = document.getElementById("date");
+
+      const today = new Date();
+      const months = [
+        'January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+      ]
+      const date = months[today.getMonth()] + " " + today.getDate();
+
+      dateSection.innerHTML = `Today's date is: ${date}`;
+    </script>
   </body>
 </html>
