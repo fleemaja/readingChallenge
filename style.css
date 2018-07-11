@@ -21,3 +21,13 @@ h2 {
 p {
   text-indent: 2em;
 }
+
+#date {
+  font-weight: 900;
+}
+
+#brief-explanation {
+  background-color: #eee;
+  color: #333;
+  padding: 5px;
+}
