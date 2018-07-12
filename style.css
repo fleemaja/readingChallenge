@@ -4,13 +4,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
   padding: 4em 1em;
-  color: #566b78;
+  color: #333;
 }
 
 h1,
 h2,
 strong {
-  color: #333;
+  color: #111;
 }
 
 h2 {
@@ -22,12 +22,40 @@ p {
   text-indent: 2em;
 }
 
+.reading-info p {
+  text-indent: 0;
+}
+
+article {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  max-width: 34em;
+  margin: auto;
+  padding: 0 1em;
+}
+
+article img {
+  margin: 0 auto;
+  display: block;
+}
+
+.show-img {
+  display: block;
+  max-height: 18em;
+  margin: 0 auto 4em auto;
+}
+
 #date {
   font-weight: 900;
 }
 
 #brief-explanation {
-  background-color: #eee;
-  color: #333;
-  padding: 5px;
+  background-color: #EAFEEA;
+  padding: 1em;
+  text-indent: 0;
+}
+
+@media screen and (max-width: 25em) {
+  article { font-size: 90%;}
 }

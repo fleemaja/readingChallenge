@@ -4,48 +4,92 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Reading Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+    .reading {
+      margin-bottom: 40px;
+      transition: all .2s ease-out;
+    }
+
+    .reading:hover {
+      background: #eee;
+    }
+    .reading-img {
+      vertical-align: middle;
+      width: 20%;
+      margin-right: 1em;
+      display: inline;
+    }
+
+    .reading-info {
+      vertical-align: middle;
+      width: 70%;
+      display: inline-block;
+    }
+
+    #under-construction-message {
+      margin-top: 10em;
+      text-align: center;
+    }
+    </style>
   </head>
   <body>
     <h1>📚 The 15 minutes per day Reading Challenge</h1>
     <p id="brief-explanation">
       A short reading for every single day of the year,
-      covering every major literary figure, philosopher, religion, folklore and historical subject through the twentieth century.
-      Readings come from the 'Harvard Classics' anthology.
+      covering a vast swath of major literary figures, philosophers, religions, folklores and historical subjects through the twentieth century.
+      Readings come from the <em>Harvard Classics</em> anthology.
     </p>
     <section id="date"></section>
 
     <main>
       <section>
         <h2>January</h2>
-        <section>
-          <span>1. </span>
-          <a href="./readings/benFranklin.html">Ben Franklin's Advice for the New Year</a>
-          <p>"Resolution: Resolve to perform what you ought; perform without fail what you resolve"-was one of the rules for success framed by America's first "self-made" man.</p>
+        <section class="reading">
+          <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BenFranklinDuplessis.jpg/800px-BenFranklinDuplessis.jpg" alt="Portrait of Benjamin Franklin" />
+          <section class="reading-info">
+            <strong>January 1 - </strong>
+            <a href="./readings/benFranklin.html">Ben Franklin's Advice for the New Year</a>
+            <p>"Resolution: Resolve to perform what you ought; perform without fail what you resolve"-was one of the rules for success framed by America's first "self-made" man.</p>
+          </section>
         </section>
 
-        <section>
-          <span>2. </span>
-          <a href="./readings/miltonPoems.html">School-Day Poems of John Milton</a>
-          <p>At the age of sixteen, Milton first appeared before the public eye as a promising young poet. These early verses, written while he was a boy in school, indicate his brilliant future.
-(First edition of Milton's collected poems published Jan. 2, 1645.)</p>
+        <section class="reading">
+          <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gerard_van_Honthorst_-_Adoration_of_the_Shepherds_%281622%29.jpg/800px-Gerard_van_Honthorst_-_Adoration_of_the_Shepherds_%281622%29.jpg" alt="Nativity Scene" />
+          <section class="reading-info">
+            <strong>January 2 - </strong>
+            <a href="./readings/miltonPoems.html">School-Day Poems of John Milton</a>
+            <p>At the age of sixteen, Milton first appeared before the public eye as a promising young poet. These early verses, written while he was a boy in school, indicate his brilliant future.
+  (First edition of Milton's collected poems published Jan. 2, 1645.)</p>
+          </section>
         </section>
 
-        <section>
-          <span>3. </span>
-          <a href="./readings/ciceroFriendship.html">Cicero on Friendship</a>
-          <p>"Fire and water are not of more universal use than friendship" - such is the high value put upon this great human relationship by the most famous orator of Rome.
-(Cicero born Jan. 3, 106 B. C.)</p>
+        <section class="reading">
+          <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bust_of_Cicero_%281st-cent._BC%29_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg/800px-Bust_of_Cicero_%281st-cent._BC%29_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg" alt="Cicero" />
+          <section class="reading-info">
+            <strong>January 3 - </strong>
+            <a href="./readings/ciceroFriendship.html">Cicero on Friendship</a>
+            <p>"Fire and water are not of more universal use than friendship" - such is the high value put upon this great human relationship by the most famous orator of Rome.
+  (Cicero born Jan. 3, 106 B. C.)</p>
+          </section>
         </section>
 
-        <section>
-          <span>4. </span>
-          <a href="./readings/grimmFisherman.html">A Flounder Fish Story</a>
-          <p>A fisherman, so the story goes, once caught a flounder that spoke, begging to be released. This was granted, whereupon the fisherman's wife demanded that it grant her one miracle after another, until even the flounder was disgusted.
-(Jacob Grimm, elder of the famous Grimm brothers, born Jan. 4, 1785.)</p>
+        <section class="reading">
+          <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Fischer_und_Frau.jpg/1024px-Fischer_und_Frau.jpg" alt="The Fisherman and the Flounder" />
+          <section class="reading-info">
+            <strong>January 4 - </strong>
+            <a href="./readings/grimmFisherman.html">The Fisherman and His Wife</a>
+            <p>A fisherman, so the story goes, once caught a flounder that spoke, begging to be released. This was granted, whereupon the fisherman's wife demanded that it grant her one miracle after another, until even the flounder was disgusted.
+  (Jacob Grimm, elder of the famous Grimm brothers, born Jan. 4, 1785.)</p>
+          </section>
         </section>
       </section>
 
+      <section id="under-construction-message">
+        <p>🚧 🛠 👷</p>
+        <strong>More coming soon...</strong>
+      </section>
     </main>
 
     <script>
