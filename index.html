@@ -96,6 +96,27 @@
         </section>
       </section>
 
+      <h2>February</h2>
+      <section class="reading">
+        <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/1/14/The_Antioch_Chalice%2C_first_half_of_6th_century%2C_Metropolitan_Museum_of_Art.jpg" alt="The Holy Grail" />
+        <section class="reading-info">
+          <strong>February 1 - </strong>
+          <a href="./readings/holyGrail.html">King Arthur's Knights Find Holy Grail</a>
+          <p>The intrepid Knights of the Round Table were startled by "crackling and crying of thunder" which rang through the great hall of the castle. Then there entered "The Holy Grail covered with white samite."</p>
+        </section>
+      </section>
+
+      <h2>March</h2>
+      <section class="reading">
+        <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Spectator.jpg" alt="The Spectator" />
+        <section class="reading-info">
+          <strong>March 1 - </strong>
+          <a href="./readings/inventedRoger.html">Invented Sir Roger de Coverly</a>
+          <p>Word pictures are often more vivid than photographs. Steele had a gift for originating characters that are remembered longer than flesh and blood people. Sir Roger de Coverly and Will Honeycomb are now bold figures in literature.
+(First issue of the "Spectator," published March 1, 1711.)</p>
+        </section>
+      </section>
+
       <h2>July</h2>
       <section class="reading">
         <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Prise_de_la_Bastille.jpg" alt="The storming of the Bastille" />
@@ -104,6 +125,60 @@
           <a href="./readings/fourteenthOfJuly.html">The French People Triumph</a>
           <p>(The Bastille surrendered, July 14, 1789.)
 What the Fourth of July is to Americans, the Fourteenth of July is to Frenchmen. It commemorates an oppressive tyranny overthrown by a freedom-loving people.</p>
+        </section>
+      </section>
+
+      <h2>August</h2>
+      <section class="reading">
+        <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/John_Calvin_by_Holbein.png" alt="John Calvin" />
+        <section class="reading-info">
+          <strong>August 1 - </strong>
+          <a href="./readings/calvinDedication.html">His Influence Still Lives</a>
+          <p>Steadfast allegiance to duty, simple living and adherence to plain, honest, homely doctrines are Calvin's principles. Are not these same old-fashioned truths followed to-day?
+(Calvin issues "Dedication," Aug. 1, 1536.)</p>
+        </section>
+      </section>
+
+      <h2>September</h2>
+      <section class="reading">
+        <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/William_Penn.png" alt="William Penn" />
+        <section class="reading-info">
+          <strong>September 1 - </strong>
+          <a href="./readings/fruitsOfSolitude.html">Expelled from College, Founded a City</a>
+          <p>While at Oxford, Penn rejected the student's gown and thereby created a furore. Later he founded a city where he sought to put his new ideas into practice.
+(Penn arrested for preaching in London, Sept. 1, 1670.)</p>
+        </section>
+      </section>
+
+      <h2>October</h2>
+      <section class="reading">
+        <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/7/77/Machiavelli_Principe_Cover_Page.jpg" alt="Machiavelli's The Prince" />
+        <section class="reading-info">
+          <strong>October 1 - </strong>
+          <a href="./readings/machiavelli.html">Princes Today and Yesterday</a>
+          <p>Today the chief duty of a prince is to be the nation's friend maker. Years ago princes desired supreme power and, by fair means or foul, strove for control. Machiavelli was a guide for such ambitious princes.
+(Machiavelli's model prince sent to France as papal legate, Oct. 1, 1498.)</p>
+        </section>
+      </section>
+
+      <h2>November</h2>
+      <section class="reading">
+        <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/George_Romney_-_William_Shakespeare_-_The_Tempest_Act_I%2C_Scene_1.jpg/800px-George_Romney_-_William_Shakespeare_-_The_Tempest_Act_I%2C_Scene_1.jpg" alt="The Tempest" />
+        <section class="reading-info">
+          <strong>November 1 - </strong>
+          <a href="./readings/theTempest.html">Last Strokes of Shakespeare's Pen</a>
+          <p>Monsters of the earth, weird creatures of the air, magic romance, and shipwreck are mingled by a master hand in his thrilling drama. The fanciful, enchanting "Tempest" is the last work of the great bard of Stratford.
+("The Tempest" performed at Queen Elizabeth's court, Nov. 1, 1611.)</p>
+        </section>
+      </section>
+
+      <h2>December</h2>
+      <section class="reading">
+        <img class="reading-img" src="https://upload.wikimedia.org/wikipedia/commons/5/5d/John_Smibert_-_Bishop_George_Berkeley_-_Google_Art_Project.jpg" alt="George Berkeley" />
+        <section class="reading-info">
+          <strong>December 1 - </strong>
+          <a href="./readings/threeDialogues.html">Are Skeptics Faulty Thinkers?</a>
+          <p>Offhand we say a skeptic is one who doubts everything. But does he? And are his doubts caused by too much learning, or too little? Berkeley presents both sides of skepticism.</p>
         </section>
       </section>
 
@@ -121,7 +196,7 @@ What the Fourth of July is to Americans, the Fourteenth of July is to Frenchmen.
         'January', 'February', 'March', 'April', 'May', 'June',
         'July', 'August', 'September', 'October', 'November', 'December'
       ]
-      const date = months[today.getMonth()] + " " + today.getDate();
+      const date = `${months[today.getMonth()]} ${today.getDate()}`;
 
       dateSection.innerHTML = `Today's date is: ${date}`;
     </script>
