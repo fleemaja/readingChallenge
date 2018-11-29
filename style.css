@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   max-width: 50em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  line-height: 1.5;
+  line-height: 1.4;
   padding: 4em 1em;
   color: #333;
 }
@@ -20,6 +20,10 @@ h2 {
 
 p {
   text-indent: 2em;
+}
+
+figcaption {
+  text-align: center;
 }
 
 /* Style the tab */
@@ -63,8 +67,8 @@ p {
 }
 
 article {
-  font-size: 100%;
-  line-height: 1.5;
+  font-size: 1.25em;
+  line-height: 1.62;
   font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
   max-width: 34em;
   margin: auto;
