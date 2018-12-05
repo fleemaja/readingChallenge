@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="497" height="470">
-<g stroke="#f00" stroke-width="20" fill="none">
+<g stroke="#f00" stroke-width="20" fill="white">
 <path d="M140,20C
 73,20 20,74 20,140
 20,275 156,310 248,443
