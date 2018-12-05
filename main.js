@@ -37,7 +37,7 @@ tablinksArr.forEach((tl) => {
 
 const images = document.querySelectorAll('[data-src]');
 const config = {
-  rootMargin: '0px 0px 50px 0px',
+  rootMargin: '0px 0px 500px 0px',
   threshold: 0
 };
 let loaded = 0;

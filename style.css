@@ -1,16 +1,31 @@
 body {
-  margin: 0 auto;
-  max-width: 50em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.4;
-  padding: 4em 1em;
   color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+  background-color: green;
+  overflow: hidden;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 60em;
 }
 
 h1,
 h2,
 strong {
   color: #111;
+}
+
+.topnav h1 {
+  color: white;
+  margin-left: 2em;
 }
 
 h2 {
@@ -30,15 +45,16 @@ figcaption {
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #fbfbfb;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-    background-color: #f1f1f1;
+    background-color: #fbfbfb;
+    color: #777;
     float: left;
     border: none;
-    border-top: 3px solid #f1f1f1;
+    border-top: 3px solid #fbfbfb;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
@@ -48,13 +64,17 @@ figcaption {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #efefef;
+    color: #000;
+    font-weight: bold;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
     border-top: 3px solid green;
-    background-color: #ccc;
+    background-color: #efefef;
+    color: #000;
+    font-weight: bold;
 }
 
 /* Style the tab content */
@@ -74,7 +94,7 @@ figcaption {
 .reading-img {
   background: url(spinner.gif) 50% no-repeat;
   max-width: 20%;
-  vertical-align: middle;
+  vertical-align: top;
   margin-right: 1em;
   display: inline;
 }
