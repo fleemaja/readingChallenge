@@ -6,6 +6,11 @@ body {
   padding: 0;
 }
 
+a {
+  color: green;
+  font-size: 1.563em;
+}
+
 .topnav {
   background-color: green;
   overflow: hidden;
@@ -33,9 +38,9 @@ h2 {
   padding-top: 1em;
 }
 
-p {
+/* p {
   text-indent: 2em;
-}
+} */
 
 figcaption {
   text-align: center;
@@ -85,6 +90,8 @@ figcaption {
 .reading {
   margin-bottom: 40px;
   transition: all .2s ease-out;
+  padding-top: 2em;
+  border-top: 1px solid #777;
 }
 
 .reading:hover {
@@ -93,7 +100,7 @@ figcaption {
 
 .reading-img {
   background: url(spinner.gif) 50% no-repeat;
-  max-width: 20%;
+  max-width: 25%;
   vertical-align: top;
   margin-right: 1em;
   display: inline;
@@ -105,28 +112,142 @@ figcaption {
   display: inline-block;
 }
 
+.reading-info strong {
+  font-size: 1.563em;
+}
+
 .reading-info p {
   text-indent: 0;
 }
 
-article {
+/* article {
   font-size: 1.25em;
   line-height: 1.62;
-  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Alegreya', Georgia, serif;
   max-width: 34em;
   margin: auto;
   padding: 0 1em;
-}
+} */
 
 article img {
   margin: 0 auto;
   display: block;
 }
 
+/* ---------------------
+	Page Styles
+------------------------ */
+
+article {
+	font-family: 'Alegreya', Georgia, serif;
+	font-weight: normal;
+	color: #333;
+	font-size: 1.25em;
+  max-width: 37.5rem;
+	width: 88%;
+	margin: 0 auto;
+	padding: 4.2em 0;
+/*  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  -ms-font-feature-settings: "kern";
+  -o-font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  font-feature-settings: "kern";*/
+}
+
+article p {
+  font-size: 1em;
+	line-height: 1.6;
+	margin: 0;
+}
+
+article p + p {
+	text-indent: 2em;
+}
+
+.title h1, article h1 {
+  /* chosen for harshness (it's war of the worlds!).
+  use discretion for your own choice */
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 6.2em;
+	line-height: 1;
+	margin: 0 0 0.1em;
+	font-weight: normal;
+	text-transform: uppercase;
+  color: white;
+}
+
+.title h2, article h2 {
+	font-size: 1.953em;
+	line-height: 1.2;
+	margin: 1.42em 0 0.7em;
+	font-weight: normal;
+	color: green;
+}
+
+.title h3, article h3 {
+	font-size: 1.563em;
+	line-height: 1.3;
+	margin: 0 0 1.05em;
+	font-weight: normal;
+	font-style: italic;
+	color: #f0f0f0;
+}
+
+article h3 {
+  color: green;
+}
+
+article h2, article h3 {
+  text-align: center;
+}
+
+.title {
+	text-align: center;
+	background: #1e1e1e;
+	color: #f9f9f9;
+	padding: 6em 6% 5em;
+}
+
+.smallcaps {
+	font-family: 'Alegreya SC', Georgia, serif;
+}
+
+.dropcap {
+	font-size: 5.4em;
+	display: block;
+	float: left;
+	width: .8em;
+	height: .7em;
+	line-height: 0.8;
+	margin: 0;
+}
+
+/*  Responsive Typogrpahy */
+
+@media (max-width: 34em ) {
+  article {
+    font-size: 1em;
+  }
+  article h1 {
+  	font-size: 4em;
+  }
+}
+
+@media (min-width: 94em ) {
+  article {
+    font-size: 1.5em;
+  }
+	.container {
+		max-width: 46rem;
+	}
+}
+
 .show-img {
   display: block;
   max-height: 18em;
   margin: 0 auto 4em auto;
+  border: 1px solid white;
 }
 
 #date {
@@ -139,6 +260,6 @@ article img {
   text-indent: 0;
 }
 
-@media screen and (max-width: 25em) {
+/* @media screen and (max-width: 25em) {
   article { font-size: 90%;}
-}
+} */
