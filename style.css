@@ -159,8 +159,10 @@ article p {
   font-size: 1em;
 	line-height: 1.6;
 	margin: 0;
+  margin-bottom: 30px;
 }
 
+.indented-paragraph,
 article p + p {
 	text-indent: 2em;
 }
@@ -221,6 +223,54 @@ article h2, article h3 {
 	height: .7em;
 	line-height: 0.8;
 	margin: 0;
+}
+
+.background-info {
+  background: #eee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.wikipedia-logo {
+  height: 42px;
+  width: auto;
+}
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 2px dotted black;
+}
+
+.footnote {
+  color: blue;
+}
+
+.tooltiptext {
+  text-indent: 0;
+  font-size: 14px;
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opacity: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*  Responsive Typogrpahy */
