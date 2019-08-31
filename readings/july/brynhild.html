@@ -11,7 +11,7 @@
         text-align: center;
       }
 
-      p:not(#not-centered) {
+      p:not(.not-centered) {
         text-indent: 0;
         text-align: center;
       }
@@ -31,14 +31,25 @@
       <img class="show-img" src="../../thumbnails/july/25.jpg" alt="Brynhild" />
     </section>
 
-    
-
     <article>
+
+      <section class="background-info">
+        <img class="wikipedia-logo" src="../../wikipediaLogo.png" alt="Wikipedia Logo" />
+        <strong>Context (from Wikipedia)</strong>
+        <p class="not-centered">
+          <a href="https://en.wikipedia.org/wiki/The_Story_of_Sigurd_the_Volsung_and_the_Fall_of_the_Niblungs" target="_blank"><em>The Story of Sigurd the Volsung and the Fall of the Niblungs</em></a>
+           (1876) is an epic poem of over 10,000 lines by William Morris that tells the tragic story, drawn from the Volsunga Saga and the Elder Edda, of the Norse hero Sigmund, his son Sigurd and Sigurd's wife Gudrun.
+           It sprang from a fascination with the Volsung legend that extended back twenty years to the author's youth,
+           and had already resulted in several other literary and scholarly treatments of the story.
+            It has been seen as an influence on such fantasy writers as Andrew Lang and J. R. R. Tolkien.
+        <p>
+      </section>
+
       <section>
         <h2>HOGNI SAID</h2>
 
         <p>
-          What hath wrought Sigurd <br>
+          What hath wrought <span class="tooltip">Sigurd<span class="tooltiptext">legendary hero of Germanic mythology</span></span> <br>
           Of any wrong-doing<br>
           That the life of the famed one<br>
           Thou art fain of taking?
@@ -51,7 +62,7 @@
           Sworn many oaths,<br>
           Sworn many oaths,<br>
           And sworn them lying,<br>
-          And he bewrayed me <br>
+          And he <span class="tooltip">bewrayed<span class="tooltiptext">To accuse; malign; speak evil of</span></span> me <br>
           When it behoved him<br>
           Of all folk to his troth<br>
           To be the most trusty.
@@ -159,7 +170,7 @@
 
       <p>
         Forth sped the even<br>
-        Enow there was drunken,<br>
+        <span class="tooltip">Enow<span class="tooltiptext">enough</span></span> there was drunken,<br>
         Full enow was there <br>
         Of all soft speech;<br>
         And all men got sleep<br>
@@ -175,7 +186,7 @@
         Still turned in his mind<br>
         What on the bough<br>
         Those twain would be saying,<br>
-        The raven and erne, <br>
+        The raven and <span class="tooltip">erne<span class="tooltiptext">sea eagle</span></span>, <br>
         As they rode their ways homeward.
       </p>
 
@@ -210,7 +221,7 @@
         And my bed was a-cold,<br>
         And thou, lord, wert riding<br>
         Reft of all bliss,<br>
-        Laden with fetters <br>
+        Laden with <span class="tooltip">fetters<span class="tooltiptext">chains or manacles used to restrain a prisoner, typically placed around the ankles.</span></span> <br>
         'Mid the host of thy foemen.
       </p>
 
@@ -254,7 +265,7 @@
         Deep dyed within.
       </p>
 
-      <p id="not-centered">
+      <p class="not-centered">
         Thus this song telleth of the death of Sigurd, and setteth forth how that they slew him without doors; but some say that they slew
 him within doors, sleeping in his bed. But the Dutch Folk say that they slew him out in the wood: and so sayeth the ancient song of
 Gudrun, that Sigurd and the sons of Giuki were riding to the Thing
@@ -264,6 +275,6 @@ and unawares.
       </p>
     </article>
 
-    
+
   </body>
 </html>
