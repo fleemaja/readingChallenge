@@ -11,7 +11,7 @@ const months = [
 ]
 const date = `${months[today.getMonth()]} ${today.getDate()}`;
 
-dateSection.innerHTML = `Today's date is: ${date}`;
+dateSection.innerHTML = `Today's Date: ${date}`;
 
 tablinksArr.forEach((tl) => tl.addEventListener("click", (e) => openMonth(e)));
 
