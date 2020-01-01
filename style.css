@@ -169,8 +169,10 @@ article p + p {
 }
 
 .title h1, article h1 {
+  /* font-family: 'Alegreya', Georgia, serif; */
 	font-family: 'Pathway Gothic One', sans-serif;
-	font-size: 6.2em;
+	/* font-size: 6.2em; */
+  font-size: 4.8em;
 	line-height: 1;
 	margin: 0 0 0.1em;
 	font-weight: normal;
@@ -229,6 +231,13 @@ article h2, article h3 {
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 30px;
+}
+
+.full-reading-info {
+  background: #EAFEEA;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 120px;
 }
 
 .wikipedia-logo {
@@ -305,6 +314,12 @@ article h2, article h3 {
 
 #brief-explanation {
   background-color: #EAFEEA;
+  padding: 1em;
+  text-indent: 0;
+}
+
+#warning-message {
+  background-color: #ffffed;
   padding: 1em;
   text-indent: 0;
 }
